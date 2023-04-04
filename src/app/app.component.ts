@@ -11,6 +11,7 @@ export class AppComponent implements OnInit{
   title = 'App';
   changedVar = 'Next commit val'
   changedVar2 = '3rd commit'
+  change4='4th'
 
 constructor(private _router:Router){}
 
