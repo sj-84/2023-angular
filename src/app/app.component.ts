@@ -9,6 +9,7 @@ import { Router } from '@angular/router';
 })
 export class AppComponent implements OnInit{
   title = 'App';
+  changedVar = 'Next commit val'
 
 constructor(private _router:Router){}
 
